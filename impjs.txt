@@ -1,0 +1,20 @@
+promise has two values
+1.state
+2.result
+
+State:state has 3 values
+*pending fulfilled reject
+
+*pending:-innetial stage promise will be pending.
+*fullfilled:-if the promise is successfully completed the values is fullfilled.
+*reject:if the promise is failed the value is rejected.
+
+
+*if the promise is successful resolved will be called.to see the resolved statements 
+through then we can see the statements.
+
+*if the promise is failed reject will be called.to see that what is rejected through the
+catch method we can catch the error.
+
+Result
+the result value should be either fullfilled statement or rejected statements.
