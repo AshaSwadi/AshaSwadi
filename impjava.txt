@@ -1,0 +1,84 @@
+why we will go for method overloading?
+Method overloading increases the readability of the program. 
+
+why we will go for Method overriding?
+Method overriding helps in writing a generic code based on the parent class.
+or
+when we want to update the existing feautures we go for method overriding.
+
+Difference between methodoverloading and method overriding?
+  
+   method overloading                          method overrriding
+1.method overloading is used to             1.method overiding is used to 
+increase the readibility of the              provide a specific implementation
+program.                                     of the method.
+
+2.method overloading happens                2.method overiding happens between 
+within the class.                             two classes with IS A relationship.
+
+3.in method overloading the                 3.in method overriding the parameter 
+parameter must be different.                  be same.
+
+4.compile time polymorphism is an           4.runtime polymorphism is an example for
+example for method oveloading               method overriding.
+
+5.returntype must be same or                5.returntype must be same.
+different
+
+
+why we will go for interface?
+Interfaces are used in  to achieve abstraction,multiple inheritance, By using the implements keyword.
+
+
+why we will go for abstraction?
+Datahiding,datasecurity,hiding the unneccessary details from the user.
+
+How do we achieve abstraction?
+Declaring all the essential properties in interface class and provide implementation in the subclass.
+create a reference variable in interface and initialise that reference variable with the help of subclass object.
+
+Difference between interface and abstractclass?
+        Interface                                          Abstractclass
+
+1.interface support                                   1.abstractclass does not support for
+multiple inheritance.                                  multiple inheritance.
+
+2.interface have only abstract                        2.abstractclass have abstract and non abstract 
+methods.                                                 methods.
+
+3.Interface can't provide                             3.Abstract class can provide the implementation 
+implementation of abstract                              of interface.
+ class.
+
+4.The interface keyword is used                        4.The abstract keyword is used to declare  
+to declare interface class.                             abstract class.
+
+
+why we will go for Polymorphism?
+to acheive 
+singlepoint of contact:for all the classes the single point is ansim(same).
+Generalisation:(upcasting)for all the class common method is same.
+Loosecoupling:any changes in any one of the method will not affect the other method.
+
+why we will go for Encapsulation?
+To secure the data and provide inirect access to authorised user.
+
+
+what is Immutable?
+Immutable means it will not change the state of the object.
+
+Why it is Immutable?
+when multiple variables pointing to the same object if any one of the variable is reinitialised it will not
+affect the another variable.
+
+FINALLYBLOCK
+FINALLY IS A BLOCK IN EXCEPTION HANDLING WHICH WILL GET EXECUTED MANDATORLY EVEN THE EXCEPTION IS ADRESSED OR
+NOTADRESSED.
+
+What is stackunwinding?
+If any exception occured in any one of the method it will propagate to the main method and complete stack will get destroy
+hence it is called as stackunwinding.
+
+what is PRINTSTACKTRACE?
+It is nonstatic method of the throwable class which will get inherit to each and every class and it will give complete back trace 
+of exception in our system.
